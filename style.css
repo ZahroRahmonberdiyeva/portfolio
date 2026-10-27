@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    box-sizing: border-box;
+    padding: 30px;
+    height: 60px;
+    background-color: #14213d;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fa-solid {
+    color: #fcbf49;
+    font-size: 25px;
+}
+
+.fa-graduate {
+    font-size: 30;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+}
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 25px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 16px;
+    text-decoration-line: none;
+}
+
+.link:hover {
+    background-color: #2a9d8f;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.menu-items {
+    font-size: 16px;
+}
+
+.birinchi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    gap: 15px;
+}
+
+
+.fa-user-graduate {
+    font-size: 50px;
+    background-color: #2a9d8f;
+    padding: 30px;
+    border-radius: 50%;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+}
+
+
+.salomlash {
+    color: darkblue;
+    font-weight: 900;
+}
+
+.sinf {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.qiziqish {
+    color: #1b55d3;
+}
+
+button {
+    background-color: #fcbf49;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fa-arrow-down-long {
+    color: #14213d;
+}
+
+
+.ikkinchi {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 70px;
+    gap: 20px;
+    scroll-margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.uzun {
+    width: 100%;
+    height: 5px;
+    background-color: #fcbf49;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.haqida {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.haqida-icon {
+    color: #2a9d8f;
+    font-size: 30;
+}
+
+.haqida h3 {
+    font-size: 30px;
+    color: #14213d;
+}
+
+.tavsif {
+    color: #14213d;
+    font-size: 18px;
+}
+
+.malumotlar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.malumotlar li {
+    display: flex;
+    gap: 7px;
+    align-items: end;
+}
+
+.malumotlar li p {
+    color: #14213d;
+    font-size: 18px;
+}
+
+.malumotlar li i {
+    color: #2a9d8f;
+}
